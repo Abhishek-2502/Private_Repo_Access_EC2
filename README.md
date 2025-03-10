@@ -1,4 +1,4 @@
-# Granting EC2 Access to a Private GitHub Repository
+# Granting EC2 Access to a Private GitHub Repository without Github login
 
 This guide explains how to allow an AWS EC2 instance to access a private GitHub repository using SSH deploy keys.
 
