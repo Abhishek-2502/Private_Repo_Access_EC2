@@ -19,26 +19,7 @@ Refer to **Step 2** of the guide: [Node_Todo_App_Docker_Jenkins_FreeStyle](https
 
 ---
 
-## Step 3: Ensure Correct Permissions on EC2
-
-Check ownership of the key file:
-```bash
-ls -l ~/.ssh/github-deploy
-```
-
-If the owner is `root`, change it to the current user:
-```bash
-sudo chown ubuntu:ubuntu ~/.ssh/github-deploy
-```
-
-Set correct file permissions:
-```bash
-chmod 600 ~/.ssh/github-deploy
-```
-
----
-
-## Step 4: Add the Key to SSH Agent & Clone Repository
+## Step 3: Add the Key to SSH Agent & Clone Repository
 
 1. Start the SSH agent:
    ```bash
